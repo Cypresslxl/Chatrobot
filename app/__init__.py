@@ -8,5 +8,5 @@ def create_app():
     # Register blueprints or routes
     from app.controllers.deepseek_controller import deepseek_bp
     app.register_blueprint(deepseek_bp)
-
+    # ..
     return app
